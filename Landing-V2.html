@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Escal IA – Data Solutions | Vendé más con IA y automatización</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO básico -->
+  <meta name="description" content="Hacemos que tu negocio venda más con IA y automatización. Más clientes, menos tareas repetitivas. Turnos por WhatsApp, pagos verificados, gestión de alumnos y contenido.">
+  <meta name="keywords" content="PYME, IA, Inteligencia Artificial, Automatización, WhatsApp, Google Calendar, Google Sheets, Ventas, Procesos">
+  <meta name="author" content="Escal IA – Data Solutions">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Escal IA – Data Solutions" />
+  <meta property="og:description" content="Vendé más y ahorrá tiempo con IA aplicada a tus procesos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="<!-- URL del banner/logo -->" />
+  <meta property="og:url" content="<!-- URL de la landing -->" />
+
+  <style>
+    :root {
+      --bg: #0a2540; --accent: #3ecf8e; --text: #1f2937; --muted: #6b7280;
+      --card: #ffffff; --light: #f8fafc; --line:#e5e7eb;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.6}
+    a{color:var(--bg);text-decoration:none}
+    img{max-width:100%;height:auto;border:0}
+    .container{width:100%;max-width:1100px;margin:0 auto;padding:0 20px}
+
+    header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand-logo{width:36px;height:36px;border-radius:8px;background:linear-gradient(135deg,var(--bg),var(--accent))}
+    .brand-name{font-weight:700;letter-spacing:.2px}
+    .nav a.cta{padding:10px 14px;background:var(--bg);color:#fff;border-radius:10px;font-weight:600}
+
+    .hero{background:linear-gradient(180deg,#f6fafe 0%,#ffffff 100%);padding:56px 0 36px}
+    .hero-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center}
+    .eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:12px}
+    h1{font-size:40px;line-height:1.15;margin:10px 0;color:var(--bg)}
+    .lead{color:var(--muted);font-size:18px;margin-bottom:20px}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:12px 18px;border-radius:12px;font-weight:700;border:2px solid transparent}
+    .btn-primary{background:var(--accent);color:#083344}
+    .btn-secondary{border-color:var(--bg);color:var(--bg)}
+
+    section{padding:48px 0}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+    .card h3{margin:8px 0;color:var(--bg)}
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;background:var(--light);border:1px solid var(--line);color:var(--bg);padding:8px 12px;border-radius:999px;margin:6px 6px 0 0;font-size:13px}
+
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .step-num{width:36px;height:36px;border-radius:50%;background:var(--bg);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;margin-bottom:8px}
+
+    .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;text-align:center}
+    .kpi{background:var(--light);border:1px solid var(--line);border-radius:14px;padding:16px}
+    .kpi .value{font-size:28px;font-weight:800;color:var(--bg)}
+
+    details{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fff}
+    details+details{margin-top:10px}
+    summary{cursor:pointer;font-weight:700;color:var(--bg)}
+
+    .cta-block{background:linear-gradient(180deg,#ffffff 0%,#f6fafe 100%);border:1px solid var(--line);border-radius:16px;padding:22px}
+
+    footer{padding:28px 0;background:#0b1726;color:#cbd5e1}
+    footer a{color:#e2e8f0}
+
+    @media (max-width:900px){
+      .hero-grid{grid-template-columns:1fr}
+      .grid-3,.grid-2,.steps,.kpis{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true"></div>
+        <div class="brand-name">Escal IA – Data Solutions</div>
+      </div>
+      <nav>
+        <a class="cta" href="#contacto">Quiero vender más</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">IA + Automatización para PYMEs</div>
+        <h1>Hacemos que tu negocio venda más con IA y automatización</h1>
+        <p class="lead">Convertimos tareas repetitivas en procesos inteligentes para que tengas más clientes y más tiempo para hacer crecer tu empresa.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contacto">Quiero vender más con IA</a>
+          <a class="btn btn-secondary" href="#casos">Ver casos prácticos</a>
+        </div>
+        <p class="muted" style="margin-top:8px;">Ya trabajamos con clínicas estéticas, academias online y consultores de marketing.</p>
+      </div>
+      <div>
+        <img alt="Automatización e IA para PYMEs" src="<!-- URL de tu imagen del hero -->" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section id="beneficios">
+    <div class="container">
+      <h2>Beneficios para tu negocio</h2>
+      <div class="grid-3" style="margin-top:10px;">
+        <div class="card">
+          <h3>Más ventas</h3>
+          <p class="muted">Respuestas rápidas, seguimientos automáticos y cero oportunidades perdidas.</p>
+        </div>
+        <div class="card">
+          <h3>Menos costos</h3>
+          <p class="muted">Ahorrá tiempo y dinero eliminando tareas manuales.</p>
+        </div>
+        <div class="card">
+          <h3>Mejor experiencia</h3>
+          <p class="muted">Tus clientes reciben atención inmediata y recordatorios sin que tengas que preocuparte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Casos prácticos -->
+  <section id="casos" style="background:#fafafa;">
+    <div class="container">
+      <h2>Casos prácticos: lo que ya estamos haciendo</h2>
+      <div class="card" style="margin-top:12px;">
+        <p>
+          <span class="pill">Turnos por WhatsApp → Google Calendar</span>
+          <span class="pill">Pagos con verificación automática</span>
+          <span class="pill">Gestión de alumnos y recordatorios</span>
+          <span class="pill">Generación de contenido para redes</span>
+        </p>
+        <p class="muted">Ejemplos reales en clínicas estéticas, academias de inglés y consultores de marketing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section id="como-funciona">
+    <div class="container">
+      <h2>Cómo trabajamos</h2>
+      <div class="steps" style="margin-top:12px;">
+        <div class="card">
+          <div class="step-num">1</div>
+          <h3>Charlamos</h3>
+          <p class="muted">Conocemos tu negocio y detectamos oportunidades de mejora.</p>
+        </div>
+        <div class="card">
+          <div class="step-num">2</div>
+          <h3>Prueba rápida</h3>
+          <p class="muted">Armamos una demostración simple para que veas cómo funcionaría.</p>
+        </div>
+        <div class="card">
+          <div class="step-num">3</div>
+          <h3>Integración</h3>
+          <p class="muted">Conectamos WhatsApp, Calendar, Sheets/DB y tus herramientas actuales.</p>
+        </div>
+        <div class="card">
+          <div class="step-num">4</div>
+          <h3>Escalás</h3>
+          <p class="muted">Medimos resultados, ajustamos y hacemos crecer lo que funciona.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agentes / módulos -->
+  <section id="modulos" style="background:#fafafa;">
+    <div class="container">
+      <h2>Soluciones listas para implementar</h2>
+      <div class="grid-2" style="margin-top:12px;">
+        <div class="card">
+          <h3>Turnos automáticos</h3>
+          <p class="muted">Tus clientes agendan por WhatsApp y se registra todo en tu calendario.</p>
+          <ul>
+            <li>Respuestas 24/7</li>
+            <li>Sin solapamientos</li>
+            <li>Recordatorios automáticos</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Pagos simples</h3>
+          <p class="muted">Validación automática con la pasarela que usás (ej. Mercado Pago) y registros limpios.</p>
+          <ul>
+            <li>Menos errores</li>
+            <li>Actualización en Sheets/DB</li>
+            <li>Alertas ante inconsistencias</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Gestión de alumnos</h3>
+          <p class="muted">Tagging por nivel, seguimiento y recordatorios. Ideal para academias online.</p>
+          <ul>
+            <li>Onboarding simple</li>
+            <li>Segmentación por nivel</li>
+            <li>Recordatorios de clases/pagos</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Contenido para redes</h3>
+          <p class="muted">Ideas, calendario y borradores listos para publicar sin perder tiempo.</p>
+          <ul>
+            <li>Plantillas preconfiguradas</li>
+            <li>Calendario editorial</li>
+            <li>Export para RRSS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resultados -->
+  <section id="roi">
+    <div class="container">
+      <h2>Resultados esperados</h2>
+      <div class="kpis" style="margin-top:12px;">
+        <div class="kpi">
+          <div class="value">+30%</div>
+          <div class="muted">Aumento en conversiones</div>
+        </div>
+        <div class="kpi">
+          <div class="value">-50%</div>
+          <div class="muted">Menos carga operativa</div>
+        </div>
+        <div class="kpi">
+          <div class="value">2–4 semanas</div>
+          <div class="muted">Tiempo típico para ver la solución funcionando</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" style="background:#fafafa;">
+    <div class="container">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="grid-3" style="margin-top:12px;">
+        <div class="card">
+          <p class="muted">“Antes tardábamos horas en agendar turnos, ahora todo es automático.”</p>
+          <div style="font-weight:600;color:var(--bg)">Clínica estética</div>
+        </div>
+        <div class="card">
+          <p class="muted">“La verificación automática de pagos nos ahorra errores y tiempo.”</p>
+          <div style="font-weight:600;color:var(--bg)">Academia online</div>
+        </div>
+        <div class="card">
+          <p class="muted">“Publicamos el doble sin contratar más gente. Mucho más orden.”</p>
+          <div style="font-weight:600;color:var(--bg)">Consultor de marketing</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Formulario -->
+  <section id="contacto">
+    <div class="container">
+      <div class="cta-block">
+        <h2>¿Querés vender más y ahorrar tiempo?</h2>
+        <p class="muted">Dejanos tus datos y te mostramos cómo la IA puede ayudar a tu negocio.</p>
+
+        <!-- Inserta aquí el EMBED del formulario de MailerLite -->
+        <!-- Ejemplo:
+        <div class="ml-form-embed"
+             data-account="TU_ACCOUNT_ID"
+             data-form="TU_FORM_ID"></div>
+        (Copiá el script de MailerLite y pegalo aquí) -->
+        <div style="border:1px dashed #cbd5e1;padding:14px;border-radius:12px;background:#fff">
+          <strong>Formulario MailerLite</strong><br>
+          Pegá aquí el embebido del formulario de suscripción o contacto.
+        </div>
+        <!-- Fin MailerLite -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" style="background:#fafafa;">
+    <div class="container">
+      <h2>Preguntas frecuentes</h2>
+      <details>
+        <summary>¿Cuánto tardan en implementarlo?</summary>
+        <p class="muted">Solemos tener una primera versión funcionando entre 2 y 4 semanas, según el alcance.</p>
+      </details>
+      <details>
+        <summary>¿Tengo que cambiar mis herramientas actuales?</summary>
+        <p class="muted">No. Integramos con lo que ya usás: WhatsApp, Google Calendar, Sheets, CRMs y pasarelas de pago.</p>
+      </details>
+      <details>
+        <summary>¿Qué resultados puedo esperar?</summary>
+        <p class="muted">Mejores tiempos de respuesta, menos tareas manuales y más conversiones. Te mostramos el impacto con datos.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container" style="display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center">
+      <div>© <span id="y"></span> Escal IA – Data Solutions. Todos los derechos reservados.</div>
+      <div style="display:flex;gap:12px;">
+        <a href="<!-- LinkedIn Empresa -->" rel="noopener">LinkedIn</a>
+        <a href="<!-- Instagram -->" rel="noopener">Instagram</a>
+        <a href="<!-- Facebook -->" rel="noopener">Facebook</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
